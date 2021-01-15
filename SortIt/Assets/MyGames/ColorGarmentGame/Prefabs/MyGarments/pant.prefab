@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2123165214371385349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444531213888871704}
+  - component: {fileID: 3413854664314004652}
+  - component: {fileID: 1626377644451071933}
+  - component: {fileID: 2123165214371385350}
+  - component: {fileID: 2123165214371385351}
+  - component: {fileID: 767041320303956973}
+  m_Layer: 13
+  m_Name: pant
+  m_TagString: Garments
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444531213888871704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123165214371385349}
+  m_LocalRotation: {x: -0.074127026, y: 0.70321065, z: 0.70321065, w: 0.074127026}
+  m_LocalPosition: {x: 2.84, y: 0.412, z: 0}
+  m_LocalScale: {x: 4.65, y: 4.65, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: -12.035004}
+--- !u!33 &3413854664314004652
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123165214371385349}
+  m_Mesh: {fileID: 4190667812529731840, guid: 8dce255c21afa0246856729efaab29ff, type: 3}
+--- !u!23 &1626377644451071933
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123165214371385349}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2c447ee3a1d740c479a22b088632a654, type: 2}
+  - {fileID: 2100000, guid: f6d179af38dd8544ab8ce5df50951df5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2123165214371385350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123165214371385349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5310171, y: 0.906513, z: 0.01}
+  m_Center: {x: -0.013163038, y: 0.01577716, z: -0.000000003761568}
+--- !u!114 &2123165214371385351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123165214371385349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ffc08e8bc70cc45b2ccfab26de626a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GarmentType: Pant
+  GarmentColor: 
+  Red: {fileID: 2100000, guid: d23d0cef4256f47429df124b00e43742, type: 2}
+  Yellow: {fileID: 2100000, guid: 9e70878189561384182dc04f9e8056ea, type: 2}
+  Green: {fileID: 2100000, guid: 157194077e8542d489731377d285882e, type: 2}
+  Blue: {fileID: 2100000, guid: d3a67e3dddafdd4499e43e2b47aafb92, type: 2}
+  Purple: {fileID: 2100000, guid: 58cfde956c825544bba63efbab46dd76, type: 2}
+  Pink: {fileID: 2100000, guid: 9eecf11018c5bb649b3952c0c02d5210, type: 2}
+  Orange: {fileID: 2100000, guid: 0fcf56a420139a443ab9bc1679ba5ef3, type: 2}
+  particleeffect: {fileID: 2833832697854725398, guid: d176a3569590d4443ae30cc1a9b453f3,
+    type: 3}
+  clothDropSpeed: 5
+  RealCoth: {fileID: 0}
+  DrawerOriginalPos: {x: 0, y: 0, z: 0}
+  slideDrawer: 0
+  flashAnim: {fileID: 0}
+  ObiPrefab: {fileID: 4812618967583848011, guid: 212fce90b6127f34caa84419c2274621,
+    type: 3}
+  ThisGarmentTypeList: []
+--- !u!114 &767041320303956973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123165214371385349}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757b231cedd544c583ef8aeaf773b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: 56297c6e785b44eb28e469b62cedc016, type: 2}
+  phase: 0
+  thickness: 0
+  sourceCollider: {fileID: 2123165214371385350}
+  useDistanceFields: 0
+  distanceField: {fileID: 0}

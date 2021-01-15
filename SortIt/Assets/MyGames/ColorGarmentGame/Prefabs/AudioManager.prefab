@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8378935490409552789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8378935490409552779}
+  - component: {fileID: 8378935490409552788}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8378935490409552779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378935490409552789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8378935490409552788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378935490409552789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56f9ca0ea3b8c1449316568ef2aea6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Drop
+    clip: {fileID: 8300000, guid: 1b92cdacf7ca9b6459a289ab6cd4a35c, type: 3}
+    Volume: 0.34
+    pitch: 0.69
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: aa8b6bf0eba316346b3e3cf7b89fbdcb, type: 3}
+    Volume: 0.04
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Cheer
+    clip: {fileID: 8300000, guid: 4a5ec3cbd980d574d84a1e308b68384b, type: 3}
+    Volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Wrong
+    clip: {fileID: 8300000, guid: 3cef63be70b5579478827eabd54ece6c, type: 3}
+    Volume: 0.63
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: c89557cee9ac72d4a9eff89934a5d160, type: 3}
+    Volume: 2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Woosh
+    clip: {fileID: 8300000, guid: df9373263fa69724ea8b5dbfeaeac383, type: 3}
+    Volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
